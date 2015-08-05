@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			/*div {
+				position:relative;
+			}
+			
+			p {
+				position:absolute;
+			}
+			
+			.a {
+				background:#f00;
+				z-index:10;
+			}
+			
+			.b {
+				background:#0ff;
+				z-index:3;
+			}*/
+			.z1,.z2,.z3 {
+				position:absolute;
+				width:200px;
+				height:100px;
+				padding:5px 10px;
+				color:#fff;
+				text-align:right;
+			}
+			
+			.z1 {
+				z-index:1;
+				background:#000;
+			}
+			
+			.z2 {
+				z-index:2;
+				background:#c00;
+				top:30px;
+				left:30px;
+			}
+			
+			.z3 {
+				z-index:3;
+				top:60px;
+				left:60px;
+				background:#999;
+			}
+		</style>
+	</head>
+	<body>
+		<!--<div class="test">
+			<p class="a">1111</p>
+		</div>
+		<div class="test2">
+			<p class="b">1111</p>
+		</div>-->
+		<div class="z1">z-index:1</div>
+		<div class="z2">z-index:2</div>
+		<div class="z3">z-index:3</div>
+	</body>
+</html>
